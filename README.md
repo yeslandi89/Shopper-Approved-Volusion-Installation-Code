@@ -1,7 +1,5 @@
-# Shopper-Approved-Volusion-Installation-Code
-Shopper Approved installation code for Volusion
-
-
+# Shopper Approved Step-by-Step Installation Guide for Volusion
+The following is a general tutorial for how to install Shopper Approved on a Volusion store. This document assumes some familiarity with Volusion backend.
 
 ## Merchant Review Only
 
@@ -14,7 +12,7 @@ Shopper Approved installation code for Volusion
 
 ```js
 <script type="text/javascript">
-    var sa_values = {"site": '<YOUR_SITE_ID>'};
+    var sa_values = {"site": '<YOUR_SITE_ID>'}; //Make sure you replace '<YOUR_SITE_ID>' with your Shopper Approved Site ID
     function saLoadScript(src) {
         var js = window.document.createElement("script");
         js.src = src;
@@ -39,10 +37,13 @@ Shopper Approved installation code for Volusion
 6. Place a test order to make sure the code it's working
 
 
-
 ```js
 <script type="text/javascript">
-    var sa_values = {'site': '<YOUR_SITE_ID>', 'gts': 1, 'forcecomments': 1};
+    var sa_values = {
+        'site': '<YOUR_SITE_ID>', //Make sure you replace '<YOUR_SITE_ID>' with your Shopper Approved Site ID
+        'gts': 1, 
+        'forcecomments': 1
+    };
     var sa_products = {};
     for (var i = 0; i < OrderDetails.length; i++) {
         sa_products[OrderDetails[i][2]] = OrderDetails[i][3];
