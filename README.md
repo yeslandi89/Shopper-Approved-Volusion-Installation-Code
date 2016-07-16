@@ -6,7 +6,7 @@ Shopper Approved installation code for Volusion
 ## Merchant Review Only
 
 1. Go to Volusion backend 
-2. Go to `Design > Site` Content
+2. Go to `Design > Site Content`
 3. Open `Article ID 130`
 4. Copy and paste the code below 
 5. Replace `<YOUR_SITE_ID>` with your Shopper Approved Site ID
@@ -27,12 +27,12 @@ Shopper Approved installation code for Volusion
     else
         saLoadScript("//direct.shopperapproved.com/thankyou/rate/"+sa_values.site+".js?d=" + d.getTime());
 </script>
-
+```
 
 ## Merchant and Proucts Reviews
 
 1. Go to Volusion backend 
-2. Go to `Design > Site` Content
+2. Go to `Design > Site Content`
 3. Open `Article ID 130`
 4. Copy and paste the code below 
 5. Replace `<YOUR_SITE_ID>` with your Shopper Approved Site ID
