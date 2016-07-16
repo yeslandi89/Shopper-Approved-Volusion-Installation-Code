@@ -5,8 +5,14 @@ Shopper Approved installation code for Volusion
 
 ## Merchant Review Only
 
+1. Go to Volusion backend 
+2. Go to `Design > Site` Content
+3. Open `Article ID 130`
+4. Copy and paste the code below 
+5. Replace `<YOUR_SITE_ID>` with your Shopper Approved Site ID
+6. Place a test order to make sure the code it's working
+
 ```js
-<!--Shopper Approved Merchant Review Code-->
 <script type="text/javascript">
     var sa_values = {"site": '<YOUR_SITE_ID>'};
     function saLoadScript(src) {
@@ -21,11 +27,20 @@ Shopper Approved installation code for Volusion
     else
         saLoadScript("//direct.shopperapproved.com/thankyou/rate/"+sa_values.site+".js?d=" + d.getTime());
 </script>
-<!--Shopper Approved Merchant Review Code-->
-```
+
+
 ## Merchant and Proucts Reviews
+
+1. Go to Volusion backend 
+2. Go to `Design > Site` Content
+3. Open `Article ID 130`
+4. Copy and paste the code below 
+5. Replace `<YOUR_SITE_ID>` with your Shopper Approved Site ID
+6. Place a test order to make sure the code it's working
+
+
+
 ```js
-<!--Shopper Approved Merchant & Product Review Code-->
 <script type="text/javascript">
     var sa_values = {'site': '<YOUR_SITE_ID>', 'gts': 1, 'forcecomments': 1};
     var sa_products = {};
@@ -44,6 +59,5 @@ Shopper Approved installation code for Volusion
     else
         saLoadScript("//direct.shopperapproved.com/thankyou/rate/"+sa_values.site+".js?d=" + d.getTime());
 </script>
-<!--Shopper Approved Merchant & Product Review Code-->
 ```
 
