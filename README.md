@@ -1,7 +1,7 @@
 # Shopper Approved Step-by-Step Installation Guide for Volusion
 The following is a general tutorial for how to install Shopper Approved on a Volusion store. This document assumes some familiarity with Volusion backend.
 
-## Merchant Review Only
+## Merchant Reviews Only
 
 1. Go to Volusion backend 
 2. Go to `Design > Site Content`
